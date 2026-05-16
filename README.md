@@ -30,5 +30,5 @@ pip install git+https://github.com/ahelias-astro/ocean.git
 
 If you make use of this package, please cite
 ```
-Coming soon
+Hélias et al. (2026) [in review]
 ```
