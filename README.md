@@ -2,9 +2,9 @@
 
 ### Calculation of Slepian Wavelet Variance on irregularly sampled time series
 
-### Original author: [Matthew J. Graham](https://sites.astro.caltech.edu/~mjg/), California Institute of Technology, USA
+#### Original author: [Matthew J. Graham](https://sites.astro.caltech.edu/~mjg/), California Institute of Technology, USA
 
-### Modified, documented and maintained by [Adrien Hélias](https://ahelias-astro.github.io/), Western University, Canada
+#### Modified, documented and maintained by [Adrien Hélias](https://ahelias-astro.github.io/), Western University, Canada
 
 #### Version 1.0.0 (Last updated: May 16th 2026)
 
