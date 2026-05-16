@@ -13,3 +13,22 @@ This package allows the user the run Slepian Wavelet Variance analysis on their 
 ![example](ocean/example.png)
 
 See **ocean_tutorial.py** to learn how to use *ocean*.
+
+### Installation:
+
+Option 1: Clone the repository, place the files and the *ocean* folder containing **ocean_functions.py** in your working folder, and then run:
+```
+pip install -r requirements.txt
+```
+
+Option 2: Open your terminal and run the following command to install directly from Github:
+```
+pip install git+https://github.com/ahelias-astro/ocean.git
+```
+
+### Citation:
+
+If you make use of this package, please cite
+```
+Coming soon
+```
