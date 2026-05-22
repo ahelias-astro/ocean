@@ -1,6 +1,6 @@
 # ocean
 
-![logo](ocean/ocean logo.png)
+![logo](ocean/ocean_logo.png)
 
 ### Calculation of Slepian Wavelet Variance on irregularly sampled time series
 
