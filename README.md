@@ -1,5 +1,7 @@
 # ocean
 
+![logo](ocean/ocean logo.png)
+
 ### Calculation of Slepian Wavelet Variance on irregularly sampled time series
 
 #### Original author: [Matthew J. Graham](https://sites.astro.caltech.edu/~mjg/), California Institute of Technology, USA
