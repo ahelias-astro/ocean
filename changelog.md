@@ -10,5 +10,5 @@ Bug fixes:
 
 ### v1.0.0 (May 16, 2026)
 
-Initial release of ocean.
+Initial release of *ocean*.
 
