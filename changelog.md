@@ -1,7 +1,5 @@
 # Changelog
 
-## Maintained by Adrien Hélias, Western University, Canada
-
 ### v1.0.1 (July 11, 2026)
 
 Bug fixes:
