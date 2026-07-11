@@ -7,4 +7,4 @@ Author: Adrien Hélias
 
 from .ocean_functions import run_slepian_wavelet_variance
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
