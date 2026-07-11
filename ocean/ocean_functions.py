@@ -277,7 +277,7 @@ def slepian2(c: float,
     """
     # Calculate Slepian wavelets with the alternate IRLB method
     evs = eigenvector2(c, jscale, mu, mesh) 
-    return evs[0] / np.sqrt(2. ** jscale * mu)
+    return evs / np.sqrt(2. ** jscale * mu)
 
 
 def slepwav(times: np.ndarray,
@@ -402,8 +402,8 @@ def run_slepian_wavelet_variance(X: np.ndarray,
     
     print("Running Slepian Wavelet Variance analysis...")
     if three_sigma_filter == True:
-        cleaned_Y = abs(Y - np.mean(Y)) < 3*np.std(Y)
-        Y = cleaned_Y
+        mask = np.abs(Y - np.mean(Y)) < 3*np.std(Y)
+        X, Y, Yerr = X[mask], Y[mask], Yerr[mask]
     if bin_light_curve == True:
         # Binning ZTF light curve, weighting by inverse variance
         t_min = X.min()
