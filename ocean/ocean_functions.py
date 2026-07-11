@@ -1,6 +1,6 @@
 # ocean_functions.py
-# Version 1.0.0
-# Last modified: May 14th, 2026
+# Version 1.0.1
+# Last modified: July 11, 2026
 # Authors: Matthew J. Graham, Adrien Hélias
 
 import irlb
