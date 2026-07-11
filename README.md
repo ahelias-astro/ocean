@@ -8,7 +8,7 @@
 
 #### Modified, documented and maintained by [Adrien Hélias](https://ahelias-astro.github.io/), Western University, Canada
 
-#### Version 1.0.0 (Last updated: May 16th 2026)
+#### Version 1.0.1 (Last updated: July 11, 2026)
 
 This package allows the user to run Slepian Wavelet Variance analysis on irregularly sampled time series. Specifically, *ocean* calculates the variance of the time series at multiple timescales, to give more insight on the type of variability seen in the data, and the timescales for which the variability is the strongest. The code is originally intended to calculate the variance curves of astronomical time series, but it is general enough to be used on other kinds of time series.
 
