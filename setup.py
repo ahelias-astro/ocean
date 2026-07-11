@@ -8,7 +8,7 @@ Author: Adrien Hélias
 from setuptools import setup, find_packages
 
 setup(name="ocean",
-      version="1.0.0",
+      version="1.0.1",
       description="Classification of quasars using Slepian Wavelet Variance on light curves",
       author="Adrien Helias",
       packages=find_packages(),
