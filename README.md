@@ -30,25 +30,24 @@ pip install git+https://github.com/ahelias-astro/ocean.git
 
 ### Citation:
 
-If you make use of this package, please cite
+If you make use of this package, please cite [Hélias et al. (2026)](https://iopscience.iop.org/article/10.1088/1538-3873/ae8f75):
 ```
-@ARTICLE{2014MNRAS.439..703G,
-       author = {{Graham}, Matthew J. and {Djorgovski}, S.~G. and {Drake}, Andrew J. and {Mahabal}, Ashish A. and {Chang}, Melissa and {Stern}, Daniel and {Donalek}, Ciro and {Glikman}, Eilat},
-        title = "{A novel variability-based method for quasar selection: evidence for a rest-frame {\ensuremath{\sim}}54 d characteristic time-scale}",
-      journal = {\mnras},
-     keywords = {methods: data analysis, techniques: photometric, surveys, quasars: general, Astrophysics - Cosmology and Extragalactic Astrophysics},
-         year = 2014,
-        month = mar,
-       volume = {439},
-       number = {1},
-        pages = {703-718},
-          doi = {10.1093/mnras/stt2499},
+@ARTICLE{2026PASP..138h4507H,
+       author = {{H{\'e}lias}, Adrien and {Barmby}, Pauline and {Gallagher}, Sarah C. and {Abbassi}, Shahram and {Graham}, Matthew J.},
+        title = "{Classifying Quasar Types Without a Spectrum}",
+      journal = {\pasp},
+     keywords = {Light curves, Quasars, Active galactic nuclei, Wavelet analysis, Time series analysis, Time domain astronomy, 918, 1319, 16, 1918, 1916, 2109, Astrophysics of Galaxies},
+         year = 2026,
+        month = aug,
+       volume = {138},
+       number = {8},
+          eid = {084507},
+        pages = {084507},
+          doi = {10.1088/1538-3873/ae8f75},
 archivePrefix = {arXiv},
-       eprint = {1401.1785},
- primaryClass = {astro-ph.CO},
-       adsurl = {https://ui.adsabs.harvard.edu/abs/2014MNRAS.439..703G},
+       eprint = {2608.11916},
+ primaryClass = {astro-ph.GA},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2026PASP..138h4507H},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
-
-Hélias et al. (2026) [in review]
 ```
