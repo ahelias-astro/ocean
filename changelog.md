@@ -1,5 +1,10 @@
 # Changelog
 
+### v1.0.2 (September 28, 2026)
+
+Bug fix:
+- The dependency irlb was not installing properly when installing _ocean_, due to irlb not existing on PyPI. The correct URL has been added, and the issue is now fixed. 
+
 ### v1.0.1 (July 11, 2026)
 
 Bug fixes:
