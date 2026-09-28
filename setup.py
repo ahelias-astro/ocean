@@ -12,5 +12,5 @@ setup(name="ocean",
       description="Classification of quasars using Slepian Wavelet Variance on light curves",
       author="Adrien Helias",
       packages=find_packages(),
-      install_requires=["numpy", "pandas", "irlb @ git+https://github.com/bwlewis/irlbpy.git", "scipy", "spectrum"])
+      install_requires=["numpy", "pandas", "irlbpy @ git+https://github.com/bwlewis/irlbpy.git", "scipy", "spectrum"])
 
