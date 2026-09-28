@@ -1,5 +1,5 @@
 numpy
 pandas
-irlb
+git+https://github.com/bwlewis/irlbpy.git#egg=irlb
 scipy
 spectrum
