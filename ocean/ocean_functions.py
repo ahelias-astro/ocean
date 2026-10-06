@@ -3,13 +3,14 @@
 # Last modified: September 28, 2026
 # Authors: Matthew J. Graham, Adrien Hélias
 
+import time
 import irlb
 import numpy as np
 from scipy.stats import skew, kurtosis
 from spectrum import dpss
 import sys
 import warnings
-warnings.simplefilter("ignore", RuntimeWarning) 
+warnings.simplefilter("ignore", RuntimeWarning)
 
 
 def power_iteration(input_matrix: np.ndarray,
@@ -319,8 +320,8 @@ def slepwav(times: np.ndarray,
     meandelta = times[n + 1] / (n + 1)  # Mean dt
     cons = 1
     maxscale = int(np.floor(np.log2(n + 2))) + 3
-    sLj = [2**(j + 1) * cons for j in range(maxscale)]
-    sMj = [n - sLj[j] + 1 for j in range(maxscale)]
+    sLj = [2**(j + 1) * cons for j in range(maxscale)]  # window length
+    sMj = [n - sLj[j] + 1 for j in range(maxscale)]  # number of windows
     mu = meandelta
     dps = []
     lamplus = []
@@ -334,6 +335,7 @@ def slepwav(times: np.ndarray,
     sw_dis = np.zeros_like(sw_var)
     wc = np.empty((maxscale, n))
     for jscale in range(maxscale):
+        print("Progress: " + str(100*jscale/(maxscale - 3)) + "%...")
         if sMj[jscale] / 2. <= 3.5: continue # NW < N / 2
         a, b = dpss(sMj[jscale], 3.5, 5) # N, NW, k
         dps.append(a)
@@ -400,6 +402,7 @@ def run_slepian_wavelet_variance(X: np.ndarray,
         See the documentation of the function slepwav for more details.
     """
     
+    start = time.perf_counter()
     print("Running Slepian Wavelet Variance analysis...")
     if three_sigma_filter == True:
         mask = np.abs(Y - np.mean(Y)) < 3*np.std(Y)
@@ -447,7 +450,8 @@ def run_slepian_wavelet_variance(X: np.ndarray,
     # print(ans.T)
     # dt = np.diff(X)
     # print("Mean dt: " + str(np.mean(dt)) + " days")
-    print("Done!")
+    elapsed = time.perf_counter() - start
+    print(f"Done! Runtime: {elapsed:.2f} s")
     return ans
 
 
