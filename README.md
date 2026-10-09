@@ -14,6 +14,8 @@ This package allows the user to run Slepian Wavelet Variance analysis on irregul
 
 ![example](ocean/example.png)
 
+![nutshell](ocean/Slepian_Wavelet_Variance_Illustration.png)
+
 See **ocean_tutorial.py** to learn how to use *ocean*.
 
 ### Installation:
